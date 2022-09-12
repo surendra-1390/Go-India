@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css">
+<link rel="style" href="/public/css/style.css">
+
+
+
+</head>
+<style>
+    .subpageTitle {
+    padding: 22px 0;
+    
+}
+.solidbg{
+    background-image: url(cus.jpg);
+    height: 100%;
+    width:100%;
+    background-size: cover;
+    margin-right: 0;
+    margin-top: -22px;
+    background-blend-mode: multiply;
+    background-color: rgba(0,0,0,0.75);
+    display: flex;
+    flex-direction: column;
+}
+.u-bg10 {
+    background-color: #2361a0 !important;
+}
+.subpageTitle h1, .subpageTitle h2, .subpageTitle h3, .subpageTitle h4, .subpageTitle h5, .subpageTitle h6 {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    color: #ffffff;
+    margin: 0;
+}
+.subpageTitle h1 {
+    font-size: 45px;
+}
+#mainContent ul {
+    margin-top: 10px;
+}
+.breadcrumb {
+    padding: 50px 0;
+    margin: 0;
+    background: none;
+    border-radius: 0;
+}
+#mainContent ul > li {
+    margin-bottom: 5px;
+}
+.breadcrumb > li {
+    color: #0d5cab;
+    font-size: 12px;
+    text-transform: uppercase;
+    
+}
+.breadcrumb > li a {
+    display: inline-block;
+    
+}
+.breadcrumb > li img {
+    position: relative;
+    top: -1px;
+}
+img {
+    display: inline-block;
+    max-width: 100%;
+    height: auto;
+}
+#mainContent ul > li {
+    margin-bottom: 5px;
+}
+.breadcrumb > li {
+    color: #0d5cab;
+    font-size: 12px;
+    text-transform: uppercase;
+    
+}
+.contactForm input[type="submit"] {
+    font-family: 'Roboto', sans-serif;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    background-color: #00aeef;
+    height: 50px;
+    
+}
+.contactForm input {
+  font-family: 'Roboto', sans-serif;
+  height: 65px;
+}
+.contactForm textarea {
+  font-family: 'Roboto', sans-serif;
+}
+.list-group .navHighlight, .list-group .navHighlight:hover {
+    /* background-color: transparent; */
+    background-color: #cccccc;
+    border-color: #cccccc;
+}
+.list-group-item {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+    margin-bottom: -1px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+}
+.pageSidebar ul {
+  margin-top: 30px;
+}
+.pageSidebar {
+    padding-right: 70px;
+    font-family: 'Roboto', sans-serif;
+}
+.list-group .list-group-item:first-child {
+    border-top: none;
+    border-radius: 0;
+}
+.list-group .list-group-item {
+    padding: 18px 0 18px 9px;
+}
+.list-group .list-group-item {
+    border-left: none;
+    border-right: none;
+    font-weight: 600;
+    padding: 18px 0px;
+    border-color: #668ad8;
+}
+.sidebar-widget a {
+    text-decoration: none;
+}
+.list-group .list-group-item {
+    padding: 18px 0 18px 9px;
+}
+.list-group .navHighlight, .list-group .navHighlight:hover {
+    background-color: #cccccc;
+    border-color: #cccccc;
+    
+}
+.list-group .list-group-item {
+    border-left: none;
+    border-right: none;
+    font-weight: 600;
+    padding: 18px 0px;
+    border-color: #dce0e3;
+}
+.list-group .list-group-item {
+    padding: 18px 0 18px 9px;
+}
+
+.footer {
+            width: 100%;
+            height: 100px;
+            display: grid;
+            color: white;
+            grid-template-columns: 1fr 1fr 1fr;
+            background-color: black
+        }
+    
+        .footer i {
+            color: white;
+            font-size: 1.5em;
+            margin: 0px 20px;
+            transition: 0.3s ease;
+        }
+
+        .footer i:hover {
+            color: rgba(255,255,255,0.5);
+        }
+
+        .footer p{
+            margin: 20px;
+        }
+        .navbar{
+    max-width: 100vw;
+    height:10vh;
+    background-color: none;
+    display: flex;
+    align-items: center;
+}
+
+.buttooon {
+    
+    position: relative;
+    display: inline-block;
+    font-weight: bold;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    border-left: solid 4px #668ad8;
+    border-right: solid 4px #668ad8;
+    color: #668ad8;
+    background: #e1f3ff;
+    transition: .4s;
+    font-family: sans-serif;
+}
+.buttooon:hover {
+background: #668ad8;
+color: #FFF;
+text-decoration: wavy;
+}
+.logo{
+    font-size: xxx-large;
+    color: white;
+    flex:0.4;
+    margin-left: 2em;
+}
+.contents{
+    flex:0.6;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    color: white;
+    font-size: larger;
+    
+}
+
+.dropdown{
+    background-color: #e1f3ff;
+    transition: .4s;
+    margin-left: 2em;
+    width:12vw;
+    height:6vh;
+    color: #668ad8;
+    border-radius: 3px;
+    font-size: large;
+    text-align: center;
+    background-image: 
+    linear-gradient(45deg, transparent 50%, blue 50%),
+    linear-gradient(135deg, blue 50%, transparent 50%),
+    linear-gradient(to right, #668ad8, #668ad8);
+  background-position:
+    calc(100% - 20px) calc(1em + 2px),
+    calc(100% - 15px) calc(1em + 2px),
+    100% 0;
+  background-size:
+    5px 5px,
+    5px 5px,
+    2.5em 2.5em;
+  background-repeat: no-repeat;
+    margin-right: 1em;
+}
+.dropdown:focus{
+    background-image:
+    linear-gradient(45deg, white 50%, transparent 50%),
+    linear-gradient(135deg, transparent 50%, white 50%),
+    linear-gradient(to right,#668ad8, #668ad8);
+  background-position:
+    calc(100% - 15px) 1em,
+    calc(100% - 20px) 1em,
+    100% 0;
+  background-size:
+    5px 5px,
+    5px 5px,
+    2.5em 2.5em;
+  background-repeat: no-repeat;
+  border-color: grey;
+  outline: 0;
+  font-family: sans-serif;
+}
+
+.home
+a{
+    margin-left: 2em;
+    margin-right: 1em;
+    ;
+}
+a:hover{
+    
+    text-decoration: underline;
+    cursor: pointer;
+    text-decoration-color:white ;
+    transform: scale(1.03);
+
+}
+.home{
+    color: white;
+}
+.navbar{
+    max-width: 100vw;
+    height:10vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+}
+</style>
+{{>navbar}}
+
+<body>
+    
+     <!-- subpageBanner -->
+     <div class="solidbg">
+     
+     <div class="container">
+        <div class="row">
+           <div class="col-sm-8 col-sm-push-4 col-md-7 col-md-push-5 col-lg-8 col-lg-push-4" id="mainContent">
+              <ul class="breadcrumb">
+                 <li>
+                    <a id="bchomelink" class="fileTrail" href="/index" style="font-size: 50px;"><i class="fa fa-home" ></i></a>
+                 </li>
+                 <li class="fileTrailCurrent active" style="font-size: 25px;">Contact Us</li>
+              </ul>
+              <form name="contentForm"  method="post" action="/contactus">
+              {{!-- enctype="multipart/form-data" --}}
+                 <!-- <h4>CONTACT FORM</h4> -->
+                 <div class="contactForm">
+                    <div class="row">
+                       <div class="col-md-6">
+                          <div class="form-group icon-1">
+                             <label class="control-label sr-only" for="firstName">First Name</label> 
+                             <input name="firstName" id="firstName" class="form-control" placeholder="FIRST NAME"  type="text"required >
+                          </div>
+                          <div class="form-group icon-1">
+                             <label class="control-label sr-only" for="c_lastname">Last Name</label> 
+                             <input name="lastname" id="c_lastname" class="form-control" placeholder="LAST NAME" type="text"required >
+                          </div>
+                          <div class="form-group icon-2">
+                             <label class="control-label sr-only" for="fromEmail">Email</label> 
+                             <input name="fromEmail" id="fromEmail" class="form-control" placeholder="EMAIL" type="email" required >
+                          </div>
+                          <div class="form-group icon-3">
+                             <label class="control-label sr-only" for="phoneNumber">Phone Number</label> 
+                             <input name="phoneNumber" id="phoneNumber" class="form-control" placeholder="PHONE" type="text" required >
+                          </div>
+                          <div class="form-group icon-3">
+                            <label class="control-label sr-only" for="phoneNumber">Country</label> 
+                            
+                     
+                                <input name="spec" list="lspec" required class="form-control" placeholder="COUNTRY" type="text"  >
+                                <datalist id="lspec">                          
+                            <option value="India">IND</option>
+                            <option value="Australia">Aus</option>
+                            <option value="USA">US</option>
+                            <option value="Japan">Ja</option>
+                            <option value="Canada">Can</option>
+                            <option value="Brazil">Br</option>
+                            <option value="UAE">U</option>
+                            <option value="France">Fra</option>
+                            <option value="Singapore">Sin</option>
+                            <option value="England">En</option>
+                            <option value="Switzerlad">Swi</option>
+                        </datalist>
+                        
+
+                         </div>
+                       </div>
+                       <div class="col-md-6">
+                        <div class="form-group icon-3">
+                            <label class="control-label sr-only" for="phoneNumber">Age</label> 
+                            <input name="Age" type="number" min="18" max="85" step="1" required id="Age" class="form-control" placeholder="AGE" type="text" >
+                         </div>
+                          <div class="form-group">
+                             <label class="control-label sr-only" for="comments">Your Message</label> 
+                             <textarea name="comments" rows="5" id="comments" class="form-control" placeholder="YOUR MESSAGE" cols="10"></textarea>
+                          </div>
+                          <button type="submit" value="SUBMIT" class="btn btn-primary btn-block" name="submit"> submit</button>
+                       </div>
+                    </div>
+                    <!-- / row -->
+                 </div>
+                 <!-- / contactForm -->
+              </form>
+           </div>
+           <!-- / #mainContent -->
+           <div class="col-sm-4 col-sm-pull-8 col-md-5 col-md-pull-7 col-lg-4 col-lg-pull-8 pageSidebar" id="leftSideNav"style="margin-top: 21%;">
+              <ul class="sidebar-widget list-group u-paddingTop30 text-uppercase">
+                 <li class="list-group-item">
+                    <a href="/aboutus" >About Us</a>
+                 </li>
+                 <li class="navHighlight list-group-item">
+                    <a href="/contactus" style="color: white;">Contact Us</a>
+                 </li>
+                 
+              </ul>
+           </div>
+           <!-- / #leftSideNav -->
+        </div>
+        <!-- / row -->
+     </div>
+     <!-- / container -->
+     
+    </div>
+    </div>
+    
+   
+    
+    <div class="footer">
+        <div style="display: flex; align-items: center; justify-content: flex-start">
+           
+           <a href="https://instagram.com"> <i class="bi bi-instagram"></i></a>
+            <a href="https://www.twitter.com/" ><i class="bi bi-twitter"></i></a>
+            <a href="https://www.youtube.com/"><i class="bi bi-youtube"></i></a>
+        </div>
+    
+        <div style="display: flex; align-items: center; justify-content: flex-start; font-size: 20px;">
+            <p style="font-size: 12.5px;text-align: center;">This go india site promotes india to be a world class travel destination Through our exceptionally curated occasion bundles, we need to take you on an adventure where you personally enjoy with the stunning magnificence of India. We need you to observe sensational scenes that are a long ways past your creative ability.</p>
+        </div>
+    
+        <div style="align-items: center; justify-content: center; display: flex;">
+            <p>Enquiry</p>
+            
+            <p><a href="gmail.com" style="color: gold;" >goindia@support.in</a></p>
+        </div>
+    
+    </div>
+</body>
+</html>
+
+

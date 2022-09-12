@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css">
+	<link rel="stylesheet" href="css.css">
+	<style>
+		body{
+			background-color: rgb(224 223 221);
+		}
+		.nav{
+			overflow: hidden;
+			background-color: #000;
+		}
+		.nav a{
+			background-color: #000;
+			text-align: center;
+			display: block;
+			float: left;
+			text-decoration: none;
+			padding: 14px 16px 14px 20px;
+			color: white;
+		}
+		.kkd {
+			text-align: center;
+			padding: 50px 160px 30px 160px;
+			background-color: rgb(232 213 163);
+        }
+        .overlay {
+            position: absolute;
+			top:15%;
+            bottom:0;
+            left: 0%;
+            right: 0%;
+            background-color: #668ad8;
+            overflow: hidden;
+            width: 100%;
+            height: 100%;
+            transform: scale(0);
+            transition: .9s ease;
+        }
+
+        .kkd:hover .overlay {
+           transform: scale(0.5);
+        }
+            
+        .text {
+                color: rgb(248, 242, 242);
+                text-align: center;
+}
+        main{
+			
+			padding: 10px 100px 10px 150px;
+		}
+		footer{
+			background-color: black;
+			color: white;
+   			padding: 30px 0px 30px 60px;
+		}
+
+		small{
+			color: white;
+		}
+		.l{
+			font-size: 1.7em;
+			font-family: 'Montserrat', sans-serif;
+			line-height: 2.5rem;
+			color: #333;
+		}
+		.Quotes{
+			font-size: 1.7rem;
+			padding-top: 50px;
+			font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+		}
+		.buttun{
+        background-color:darkorange;
+        border: none;
+        padding: 15px 32px;
+        text-align: center;
+        display: inline-block;
+        cursor:pointer;
+        text-shadow: #717171;
+        font-size: 16px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-weight: bold;
+    }
+	
+    .footer {
+            width: 100%;
+            height: 100px;
+            display: grid;
+            color: white;
+            grid-template-columns: 1fr 1fr 1fr;
+            background-color: black;
+	}
+    
+        .footer i {
+            color: white;
+            font-size: 1.5em;
+            margin: 0px 20px;
+            transition: 0.3s ease;
+        }
+
+        .footer i:hover {
+            color: rgba(255,255,255,0.5);
+        }
+
+        .footer p{
+            margin: 20px;
+        }
+		.backgroundd{
+			width:100%;
+    		height:100%;
+    		background-size: cover;
+    		margin-right: 0;
+			margin-top: -25px;
+    		background-blend-mode: multiply;
+    		background-color: #668ad8;
+    		display: flex;
+    		flex-direction: column;
+			background-image: url(jaipurforto.jpg);
+
+			
+
+		}
+
+        
+	</style>
+	<meta charset="utf-8">
+	<title>WELCOME TO AmberFort</title>
+</head>
+{{>navbar}}
+<body>
+	
+    <div class="backgroundd">
+		
+	<header><h1 style="font-size: 32px; text-align: center; color: aliceblue; ">Jaipur- Amber fort..!</h1></header>
+	
+	<main>
+		<div class="kkd">
+			<div class="img">
+					<img src="jaipurforto.jpg" width="900" height="500" style="border: 5px solid #555">
+			</div>
+            <div class="overlay" >
+                <div class="text" style="font-size: 30px; font-family: cursive;align-items: center;">
+                    <br>
+					
+		
+                    The best Time to visit the Amber fort.
+                    <br>
+					
+					All workingDays
+					<br>
+				
+					<br>
+                    It is advisable to visit the Amer Fort from September to March. The weather remains pleasant and cool in these months.
+                      <br>
+                        If you are visiting Amber fort during night from 7 pm to 9 pm  you can enjoy the sound and light show along with a fancy dinner at the restaurant.
+                       <br>
+                       
+                       Visiting Hours (Opening and Closing hours):
+					   <br> The temple will open from 8:00 AM to 9:00 PM .
+                       
+					   <br>
+					   <br>
+                      Amber fort is open during all days of the week, you can plan your tour whenever you want.
+					  <br>
+
+					  Amber fort is one of the famous temple in jaipur.
+                
+             </div>
+              </div>
+            
+			<div class="Quotes">
+		 		<b><i><q>The Amer Fort, situated in Amber, 11 kilometers from Jaipur, is one of the most famous forts of Rajasthan. Amer, originally, was the capital of the state before Jaipur. It is an old fort, built in 1592 by Raja Man Singh. This fort is also very popularly known as the Amer Palace</q></i></b>
+			</div>
+			<div class="l">
+				<h3>Amber fort</h3>
+				<p>
+                    The Amer Fort was built in red sandstone and marble and the Maotha Lake adds a certain charm to the entire Fort. Though the fort is quite old and may even look so from the outside, it is beautiful on the inside and boasts of various buildings of prominence like the 'Diwan-i-Aam', the 'Sheesh Mahal' and even the 'Sukh Mahal'.
+                </p>
+                <p>
+                    The Amer Fort has influences of both Hindu and Muslim architecture. This fort also has the 'Shila Devi' Temple and the 'Ganesh Pol' which is a gate that leads to the private palaces of the kings. The Amer Fort has many pavilions and halls of great interest and other popular attractions.
+                </p>
+             </div>
+				
+		</div>
+	</main>
+	
+    <div class="footer">
+		<div style="display: flex; align-items: center; justify-content: flex-start">
+		   
+		   <a href="https://instagram.com/"> <i class="bi bi-instagram"></i></a>
+			<a href="https://twitter.com/" ><i class="bi bi-twitter"></i></a>
+			<a href="https://youtube.com/"><i class="bi bi-youtube"></i></a>
+		</div>
+	
+		<div style="display: flex; align-items: center; justify-content: flex-start; font-size: 20px;">
+			<p style="font-size: 12.5px;text-align: center;">This go india site promotes india to be a world class travel destination Through our exceptionally curated occasion bundles, we need to take you on an adventure where you personally enjoy with the stunning magnificence of India. We need you to observe sensational scenes that are a long ways past your creative ability.</p>
+		</div>
+	
+		<div style="align-items: center; justify-content: center; display: flex;">
+			<p>Enquiry</p>
+			
+			<p><a href="https://gmail.com/" style="color: gold;" >goindia@support.in</a></p>
+		</div>
+	
+	</div>
+  
+		
+	
+	
+</body>
+</html>

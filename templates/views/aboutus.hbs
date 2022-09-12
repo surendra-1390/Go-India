@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Document</title>
+    <style>
+        body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+.buttun{
+        background-color:darkorange;
+        border: none;
+        padding: 15px 32px;
+        text-align: center;
+        display: inline-block;
+        cursor:pointer;
+        text-shadow: #717171;
+        font-size: 16px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-weight: bold;
+    }
+
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 25px;
+  text-align: center;
+  background-color: rgba(255, 166, 0, 0.082);
+  color: white;
+  border-width: 2px;
+  font-family: sans-serif;
+  color: #717171;
+}
+
+.containerr {
+  padding: 0 16px;
+}
+
+.containerr::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.titlee {
+  color: grey;
+}
+
+.buttonn {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+.bye{
+        width: 1000px;
+        height: 60vh;
+        background-size: cover;
+        background-color:whitesmoke;
+        margin-top: 30px;
+        display: flex;
+        align-items: center;
+        /* justify-content: space-around; */
+        font-size: xx-large;
+        color:orangered;
+        /* flex-wrap: wrap; */
+        margin-left: 140px;
+        margin-bottom: 50px;
+        border-radius: 20px;
+         /* box-shadow: 2px 2px 2px 2px gray;  */
+         border: 3px  black;
+         border-style: dotted;
+         
+    }
+    .image{
+        flex: 0.4;
+        float: left;
+        margin-left: 5%;
+    }
+    .text{
+        color: black;
+        margin-left: 50px;
+        flex: 0.6;
+        font-size: 30px;
+        font-family: 'Dancing Script', cursive;
+    }
+    .hai{
+        padding-top: 100px;
+        padding-left: 475px;
+        font-size: 50px;
+         font-family: 'Dela Gothic One', cursive; 
+        font-family: 'Rubik', sans-serif;
+    }
+    .footer {
+            width: 100%;
+            height: 100px;
+            display: grid;
+            color: white;
+            grid-template-columns: 1fr 1fr 1fr;
+            background-color: black;
+        }
+    
+        .footer i {
+            color: white;
+            font-size: 1.5em;
+            margin: 0px 20px;
+            transition: 0.3s ease;
+        }
+
+        .footer i:hover {
+            color: rgba(255,255,255,0.5);
+        }
+
+        .footer p{
+            margin: 20px;
+        }
+        .backforhead{
+          background-color: rgba(255, 166, 0, 0.082);
+        }
+</style>
+{{>navbar}}
+</head>
+<body>
+  
+
+    <div class="about-section">
+        <h1>About Us </h1>
+        <p><span style="font-weight: bolder;font-family: cursive;">Go India -INDIA's Travel Resource</span></p>
+        
+        <p><span style="text-align: justify; word-spacing: 3px; line: height 10px;padding: 5 5 5 5;">The Go India promotes India globally as a world-class destination for travel and tourism investment.This go india site promotes india to be a world class travel destination Through our exceptionally curated occasion bundles, we need to take you on an adventure where you personally enjoy with the stunning magnificence of India. We need you to observe sensational scenes that are a long ways past your creative ability.</span></p>
+      </div>
+      
+      <h2 style=" font-family: Verdana, Geneva, Tahoma, sans-serif;font-size: 30px;color: #717171; text-align: center;">Our Team</h2>
+      <div class="row">
+        <div class="column">
+          <div class="card">
+            <img src="shamanth1.jpg" alt="Jane" style="height: 400px;width: 475px;padding-left: 50px;padding-right: 50px;padding-top: 50px;padding-bottom: 50px; filter: drop-shadow(8px 8px 5px grey);">
+            <div class="containerr">
+              <h2>Dema shamanth reddy</h2>
+              <p class="titlee">CEO & Founder</p>
+              <p>We are here to provide the information about destination.which will create memorable movements in your life </p>
+              <p>shamanth@goindia.com</p>
+                <a href="https://in.linkedin.com/"> <p><button class="buttonn">Contact</button></p> </a>
+            </div>
+          </div>
+        </div>
+      
+        <div class="column">
+          <div class="card">
+            <img src="vaibhavin.jpg" alt="Mike" style="height: 400px;width: 475px;padding-left: 50px;padding-right: 50px;padding-top: 50px;padding-bottom: 50px;filter: drop-shadow(8px 8px 5px grey);">
+            <div class="containerr">
+              <h2>Sripreddy vaibhav</h2>
+              <p class="titlee">Art Director</p>
+              <p>The more difficult it is to reach the your destination the more you'll remember the journey.we will help you...with correct information </p>
+              <p>vaibhav@goindia.com</p>
+                <a href="https://in.linkedin.com/"> <p><button class="buttonn">Contact</button></p> </a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="column">
+          <div class="card">
+            <img src="surendra.jpeg" alt="John" style="height: 400px;width: 475px;padding-left: 50px;padding-right: 50px;padding-top: 50px;padding-bottom: 50px;filter: drop-shadow(8px 8px 5px grey);">
+            <div class="containerr">
+              <h2>Surendra akshintala</h2>
+              <p class="titlee">Employee</p>
+              <p>A Tourist will come drawn to its beautiful past but we need to put efforts for creating systems to make them stay here with lots of love</p>
+              <p>surendra@goindia.com</p>
+               <a href="https://in.linkedin.com/">  <p><button class="buttonn">Contact</button></p> </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+        <div class="hai">
+            <font color="gray" style="font-family: Verdana, Geneva, Tahoma, sans-serif;" >
+                What Clients Say 
+    
+            </font>
+        </div> 
+    
+    
+        <div class="bye">
+            <div class="image">
+                <img class="iii" src="client1.png" style="height: 290px;">
+            </div>
+            <div class="text">
+    
+                This is one of the great places raised my
+                interest in travelling. I visited the place
+                along with my friends. its a wonderful
+                experience with the Go India Guys from
+                point of start fo end of trip its a peaceful
+                journey with lots of love.
+                Thnk you so much ....Go India
+            </div>
+    
+        </div>   
+        <div class="bye">
+            <div class="image">
+                <img class="iii" src="client3.png" style="padding-left: 25px;height: 290px;">
+            </div>
+            <div class="text">
+    
+                Really had a fantastic experience. They really
+                providing all the facilities which they've
+                mentioned. All my friends myself felt soo
+                happy and comfortable vth their travels. All
+                the best dear Go India. I wish you'd
+                get more clints to visit your website.
+            </div>
+    
+        </div> 
+        <div class="bye">
+            <div class="image">
+                <img class="iii" src="client2.png" style="padding-left: 25px;height: 290px; width: 270px;">
+            </div>
+            <div class="text">
+    
+                One of the best choice i've made in 2021 was choosing the Go India to gather the information about the famous destinations in India.
+                I've gathered some best memories of my life. 
+                Thank you Go India Guys for this wonderful Experience
+                        </div>
+    
+        </div>
+        <div class="bye">
+            <div class="image">
+                <img class="iii" src="clientg.png" style=" height: 290px;">
+            </div>
+            <div class="text">
+    
+                I travelled to delhi along with my family its a great experience to travel with you.Because i dont know the language you helped me a lot by the service.thanks for giveing the information.
+                They have provided the information of the whole trip from start to end.
+            
+            </div>
+    
+        </div>
+        <div class="bye">
+            <div class="image">
+                <img class="iii" src="client5.png"  style="padding-left: 25px;height: 290px;">
+            </div>
+            <div class="text">
+    
+                It's a memorable gift for me to travel with you.
+                Thanks, for providing the information.
+                customer service was too good.
+    
+               <br>
+               <br>
+                Thankyou Go India..!
+                        </div>
+    
+        </div>  
+          <div class="fixed">
+       <a href="/contactus"> <i class="material-icons"style="font-size: 52px;color:darkslateblue;">support_agent</i></a>
+        </div>  
+        
+    <div class="footer">
+      <div style="display: flex; align-items: center; justify-content: flex-start">
+         
+         <a href="https://instagram.com/"> <i class="bi bi-instagram"></i></a>
+          <a href="https://twitter.com/" ><i class="bi bi-twitter"></i></a>
+          <a href="https://youtube.com/"><i class="bi bi-youtube"></i></a>
+      </div>
+  
+      <div style="display: flex; align-items: center; justify-content: flex-start; font-size: 20px;">
+          <p style="font-size: 12.5px;text-align: center;">This go india site promotes india to be a world class travel destination Through our exceptionally curated occasion bundles, we need to take you on an adventure where you personally enjoy with the stunning magnificence of India. We need you to observe sensational scenes that are a long ways past your creative ability.</p>
+      </div>
+  
+      <div style="align-items: center; justify-content: center; display: flex;">
+          <p>Enquiry</p>
+          
+          <p><a href="https://gmail.com/" style="color: gold;" >goindia@support.in</a></p>
+      </div>
+  
+  </div>
+
+    
+     
+      
+  </body>
+</html>

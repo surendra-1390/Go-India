@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css">
+	<link rel="stylesheet" href="css.css">
+	<style>
+		body{
+			background-color: rgb(224 223 221);
+		}
+		.nav{
+			overflow: hidden;
+			background-color: #000;
+		}
+		.nav a{
+			background-color: #000;
+			text-align: center;
+			display: block;
+			float: left;
+			text-decoration: none;
+			padding: 14px 16px 14px 20px;
+			color: white;
+		}
+		.kkd {
+			text-align: center;
+			padding: 50px 160px 30px 160px;
+			background-color: rgb(232 213 163);
+        }
+        .overlay {
+            position: absolute;
+			top:15%;
+            bottom:0;
+            left: 0%;
+            right: 5%;
+            background-color:#668ad8;
+            overflow: hidden;
+            width: 100%;
+            height: 100%;
+            transform: scale(0);
+            transition: .9s ease;
+        }
+
+        .kkd:hover .overlay {
+           transform: scale(0.5);
+        }
+            
+        .text {
+                color: rgb(248, 242, 242);
+                text-align: center;
+}
+        main{
+			
+			padding: 10px 100px 10px 150px;
+		}
+		footer{
+			background-color: black;
+			color: white;
+   			padding: 30px 0px 30px 60px;
+		}
+
+		small{
+			color: white;
+		}
+		.l{
+			font-size: 1.7em;
+			font-family: 'Montserrat', sans-serif;
+			line-height: 2.5rem;
+			color: #333;
+		}
+		.Quotes{
+			font-size: 1.7rem;
+			padding-top: 50px;
+			font-family: 'Montserrat', sans-serif;
+		}
+		.buttun{
+        background-color:darkorange;
+        border: none;
+        padding: 15px 32px;
+        text-align: center;
+        display: inline-block;
+        cursor:pointer;
+        text-shadow: #717171;
+        font-size: 16px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-weight: bold;
+    }
+	
+    .footer {
+            width: 100%;
+            height: 100px;
+            display: grid;
+            color: white;
+            grid-template-columns: 1fr 1fr 1fr;
+            background-color:black;
+        }
+    
+        .footer i {
+            color: white;
+            font-size: 1.5em;
+            margin: 0px 20px;
+            transition: 0.3s ease;
+        }
+
+        .footer i:hover {
+            color: rgba(255,255,255,0.5);
+        }
+
+        .footer p{
+            margin: 20px;
+        }
+		.backgroundd{
+			width:100%;
+    		height:100%;
+    		background-size: cover;
+    		margin-right: 0;
+    		background-blend-mode: multiply;
+    		background-color: #668ad8;
+    		display: flex;
+    		flex-direction: column;
+			margin-top: -25px;
+			background-image: url(mumb.jpg);
+
+			
+
+		}
+        
+	</style>
+	<meta charset="utf-8">
+	<title>WELCOME TO Vizag beach</title>
+</head>
+{{>navbar}}
+<body>
+	
+    <div class="backgroundd">
+	
+	<header><h1 style="font-size: 32px; text-align: center; color: white; ">Visakhapatnam- Ramakrishna beach..!</h1></header>
+	
+	<main>
+		<div class="kkd">
+			<div class="img">
+					<img src="mumb.jpg" width="900" height="500" style="border: 5px solid #555">
+			</div>
+            <div class="overlay" >
+                <div class="text" style="font-size: 30px; font-family: cursive;align-items: center;">
+                    <br>
+                    The best Time to visit the Ramakrishna beach.
+                    <br>
+					All days of the week.
+					<br>
+                    The ideal time to visit this beach is during the months between October to February. 
+                      <br>
+                        If you are visiting Ramakrishna beach on the weekend there will be a lot of people in the beach.
+                       <br>
+                       <br>
+                       Visiting Hours (Opening & Closing hours):<br> there are no specific timings to visit The Ramakrishna beach .
+                       <br>
+                       Ramakrishna beach is open during all days of the week, you can plan your tour whenever you want.
+                
+             </div>
+              </div>
+            
+			<div class="Quotes">
+		 		<b><i><q>Visakhapatnam is known as the beach city of Andhra Pradesh with its alluring beaches attracting hordes of visitors every day. One of the most popular beaches of Vizag is Ramakrishna beach, more commonly known as RK beach bustling with young and old people alike.</q></i></b>
+			</div>
+			<div class="l">
+				<h3>Ramakrishna beach</h3>
+				<p>
+                    RK Beach gets its name from the Ramakrishna Mission ashram situated near the beach. With its serene waters and cool atmosphere, the beach offers a wonderful view of the countryside.The view of the sunset from this beach is truly mesmerizing and one can find a number of people enjoying some relaxed moments in this beautiful beach enjoying the perfect view.
+                </p>
+                <p>
+                    Ramakrishna Beach is popular not just among the tourists but the locals as well. In the evening time this beach gets crowded with people having a fun time on the sands. Swimming, sunbathing, surfing and playing beach volleyball are some of the popular activities that can be seen here.
+                </p>
+             </div>
+				
+		</div>
+	</main>
+	
+    <div class="footer">
+		<div style="display: flex; align-items: center; justify-content: flex-start">
+		   
+		   <a href="https://instagram.com/"> <i class="bi bi-instagram"></i></a>
+			<a href="https://twitter.com/" ><i class="bi bi-twitter"></i></a>
+			<a href="https://youtube.com/"><i class="bi bi-youtube"></i></a>
+		</div>
+	
+		<div style="display: flex; align-items: center; justify-content: flex-start; font-size: 20px;">
+			<p style="font-size: 12.5px;text-align: center;">This go india site promotes india to be a world class travel destination Through our exceptionally curated occasion bundles, we need to take you on an adventure where you personally enjoy with the stunning magnificence of India. We need you to observe sensational scenes that are a long ways past your creative ability.</p>
+		</div>
+	
+		<div style="align-items: center; justify-content: center; display: flex;">
+			<p>Enquiry</p>
+			
+			<p><a href="https://gmail.com/" style="color: gold;" >goindia@support.in</a></p>
+		</div>
+	
+	</div>
+  
+		
+	
+	
+</body>
+</html>
